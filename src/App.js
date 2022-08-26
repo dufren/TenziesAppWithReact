@@ -15,7 +15,6 @@ function App() {
     const allSameNumber = dice.every(die => die.value === pivotValue)
     if(allHeld && allSameNumber){
       setTenzies(true)
-      console.log("you WON!")
     }
     
   }, [dice])
